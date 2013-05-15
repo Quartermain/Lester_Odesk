@@ -1,0 +1,460 @@
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+body {
+	color: #777777;
+	font-family: Arial, Helvetica, sans-serif;	
+}
+h1, h2, h3, p {
+	margin: 0;
+	padding: 0;	
+}
+
+
+/* =============================================================================
+   Header
+   ========================================================================== */
+.navbar .logo {
+	color: #585858;
+	float: left;
+	line-height: 95px;
+	margin-right: 90px;
+}
+.navbar .nav>li {
+	background: url(../img/bg_nav_separator.png) no-repeat right center;
+	line-height: 85px;	
+}
+.navbar .nav>li>a {
+	color: #6d6d6d;
+	font-weight: bold;	
+	background: none !important;
+}
+.navbar .nav li:last-child {
+	background: none;	
+}
+.navbar .nav li:last-child a {
+	color: #a9462f;	
+}
+.btn.g, .g:hover {
+	background: #b1c785;
+	color: #fff;
+}
+.btn.custom {
+	float: right;
+	margin-top: 40px;
+	width: 70px;	
+}
+.banner {
+	background: url(../img/bg_baner.png) no-repeat center;
+	position: relative;
+	padding: 30px 0;
+	height: 306px;
+}
+.banner .container {
+	width: 750px;	
+}
+.banner h1, .banner h2 {
+	color: #fff;
+	font-weight: normal;
+}
+.banner h1 {
+	font-size: 36px;
+}
+.banner h2 {
+	font-size: 28px;
+	width: 315px;
+	margin-top: 38px;
+}
+.banner h2 span {
+	font-size: 14px;
+	float: right;
+	line-height: 20px;
+}
+.banner p {
+	color: #3d3a36;
+	font-size: 14px;
+	margin: 20px 0 40px;	
+}
+.banner .btn-order {
+	background-color: #006399 !important;
+    background-image: linear-gradient(#00A5FF, #006399);
+    background-repeat: repeat-x;
+    border-color: #006399 #006399 #00527F;
+    color: #FFFFFF !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
+    width: 264px;	
+}
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+.content {
+	padding-top: 40px;	
+}
+.content h3, .content h4 {
+	font-weight: normal;
+	text-align: center;		
+}
+.content h3 {
+	font-size: 36px;
+	color: #1c1c1c;
+	margin-bottom: 40px;
+}
+.content h4, .content h5 {
+	color: #4a4a4a;
+	font-size: 30px;	
+}
+.content .custom h5 {
+	font-size: 24px;
+	font-weight: normal;
+	margin: 24px 0;
+}
+.content .container {
+	text-align: center;	
+}
+.content p {
+	text-align: left;	
+}
+.content p span {
+	color: #e11919;	
+}
+.content .sub-content {
+	width: 910px;	
+	margin: 0 auto;
+	padding-bottom: 60px;
+}
+.content .dotted {
+	background: url(../img/bg_separator.png) no-repeat center top;
+	padding-top: 90px;
+}
+.content .custom {
+	margin-bottom: 60px;	
+}
+.content .custom p {
+	text-align: left;	
+}
+.content .table-content {
+	width: 960px;
+	margin: 0 auto 45px;	
+	box-shadow: 1px 1px 5px #888888;
+}
+.content .table-content .span3{
+	width: 240px;
+	margin-left: 0;
+}
+.content table {
+	width: 100%;	
+	border-collapse: separate;
+}
+.content table th {
+	background: #192126;
+	color: #fff;
+	font-size: 20px;
+	font-family: Century Gothic;	
+	font-weight: normal;
+	height: 80px;
+	padding: 0;
+}
+.content table td {
+	color: #54585b;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 18px;	
+	text-align: left;
+	border-right: 1px solid #bdccd5;
+	height: 112px;
+}
+.content table td button {
+	color: #fff;
+	font-size: 14px;	
+	width: 100%;
+	margin: 20px 0 0;
+	font-weight: bold;
+}
+.content table td button span {
+	color: #586749;
+	font-size: 10px;
+	display: block;	
+}
+.content table tr:last-child td {
+	color: #262626;
+	font-size: 12px;
+	line-height: 27px;	
+}
+.content table.first th {
+	border-top-left-radius: 4px;	
+}
+.content table.last th {
+	border-top-right-radius: 4px;	
+}
+.content table.last td {
+	font-size: 13px;
+	padding: 18px 14px;
+	line-height: 27px;
+	border-right: none;
+}
+.content table.last .bg-plus {
+	font-size: 18px;
+	color: #1d2022;	
+}
+.content .bg-most, .content .bg-arrow-g, .content .bg-arrow-p, .content .bg-plus {
+	background-size: 100% !important;	
+}
+.content .bg-most {
+	background: url(../img/bg_most.png) no-repeat left top #c45031;	
+}
+.content .bg-arrow-g {
+	background: url(../img/bg_arrow_g.png) no-repeat left top #eef5f9;	
+}
+.content .bg-arrow-p {
+	background: url(../img/bg_arrow_p.png) no-repeat left top #fff3ef;	
+}
+.content .bg-plus {
+	background: url(../img/bg_c_plug.png) no-repeat left top #eef5f9;	
+}
+/* ==========================================================================
+   Primary Content
+   ========================================================================== */
+
+.main { }
+
+
+
+/* ==========================================================================
+   Sidebar
+   ========================================================================== */
+
+.sidebar { }
+
+
+
+/* ==========================================================================
+   Posts
+   ========================================================================== */
+
+.hentry header { }
+.hentry time { }
+.hentry .byline { }
+.hentry .entry-content { }
+.hentry footer { }
+
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.content-info { }
+.footer {
+	background: url("../img/footer_bg.jpg") repeat scroll 0 0 transparent;	
+	margin-top: 50px;
+}
+.footer .span3 {
+	margin-left: 20px;
+	width: 220px;	
+}
+.footer h2 {
+	background: url(../img/bg_dotted.png) repeat-x scroll 0 center transparent;
+    margin: 50px 0 0;
+    text-align: center;
+	font-size: 30px;	
+}
+.footer h2 span {
+	background: url("../img/footer_bg.jpg") repeat scroll 0 0 transparent;
+	color: #FFFFFF;
+    display: inline-block;
+    padding: 10px;	
+}
+.footer .social-list {
+	margin: 0 auto;
+    padding: 34px 0;
+    text-align: center;	
+}
+.footer .social-list a {
+	display: inline-block;
+	margin-left: 20px;	
+}
+.footer .link-list {
+	border-bottom: 1px solid #363636;
+    border-top: 1px solid #363636;	
+	padding: 50px 0 50px 175px;
+}
+.footer .link-list h4 {
+	color: #FFFFFF;
+    font-size: 18px;
+}
+.footer .link-list ul {
+	margin: 0;	
+}
+.footer .link-list ul li {
+	list-style: none;	
+}
+.footer .link-list ul li a {
+    color: #496C81;
+    font-size: 12px;
+}
+.footer .b-logo {
+    padding-top: 12px;
+    text-align: center;
+}
+.footer .b-logo p {
+    color: #575757;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+}
+/* ==========================================================================
+   WordPress Generated Classes
+   See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+   ========================================================================== */
+
+.aligncenter { display: block; margin: 0 auto; }
+.alignleft { float: left; }
+.alignright { float: right; }
+figure.alignnone { margin-left: 0; margin-right: 0; }
+
+/* ==========================================================================
+   Override css
+   ========================================================================== */
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.navbar .logo {
+		line-height: 70px;	
+	}
+	.navbar .btn, .navbar .btn-group {
+		margin-top: 23px;	
+	}
+	.navbar .nav > li {
+		background: none;
+		line-height: 20px;	
+	}
+	.banner {
+		padding: 30px 20px;	
+	}
+	.btn.custom {
+		float: left;
+		width: 30%;
+		margin: 10px;	
+	}
+	.banner .container, .content .sub-content, .content .table-content, .footer .container {
+		width: auto;	
+	}
+	.content .sub-content .span3 {
+		width: 220px;	
+	}
+	.content .dotted .span12 img {
+		width: 545px;	
+	}
+	.content .table-content .span3 {
+		width: 181px;	
+	}
+	.content table th {
+		font-size: 18px;	
+	}
+	.content table td {
+		font-size: 14px;
+		padding: 10px;	
+		height: 135px;
+	}
+	.content table td button {
+		padding: 4px 21px;	
+	}
+	.content table.last td {
+		font-size: 11px;
+		padding: 10px 8px;
+	}
+	.content table.last .bg-plus {
+		font-size: 15px;	
+	}
+	.footer .span3 {
+		width: 166px;
+	}
+	.footer .link-list {
+		padding: 50px 12px;	
+	}
+	.footer .social-list.span10 {
+		width: 100%;	
+	}
+}
+  
+/* Landscape phones and down */
+@media (max-width: 767px) {
+	.navbar-inner {
+		padding-left: 15px;
+		padding-right: 10px;	
+	}
+	.navbar .logo {
+		line-height: 41px;
+		margin-right: 0;
+		width: 75%;
+	}
+	.btn.custom {
+		width: 100%;
+		float: none;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.navbar .nav > li {
+		background: none;
+		line-height: 34px;
+	}
+	.banner .container {
+		width: 270px;	
+	}
+	.banner h1 {
+		font-size: 28px;	
+	}
+	.banner h2 {
+		font-size: 22px;
+		width: 270px;
+	}
+	.content .sub-content {
+		width: auto;	
+	}
+	.content h3 {
+		font-size: 23px;	
+	}
+	.content h4 {
+		font-size: 20px;	
+	}
+	.content .custom h5{
+		font-size: 18px;	
+	}
+	.content .table-content {
+		width: auto;	
+	}
+	.content .table-content .span3 {
+		width: auto;
+	}	
+	.footer h2 {
+		font-size: 22px;
+		margin-top: 30px;	
+	}
+	.footer .container {
+		width: auto;	
+	}
+	.footer .link-list {
+		padding: 30px 0;	
+	}
+	.social-list img {
+		width: 28px;	
+	}
+	.footer .social-list a {
+		margin-left: 12px;	
+	}
+	.footer .social-list a:first-child {
+		margin-left: 0;	
+	}
+}
